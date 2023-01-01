@@ -1,9 +1,85 @@
 .page{
-    background-color: '#FFFFFF';
+    background-color: #FFFFFF;
     /* margin: 200px; */
 }
 
 .top-bar{
+    display: flex;
+    height: 78px;
+    align-items: center;
+}
+
+.foodwagon{
     margin-left: 220px;
+    margin-right: auto;
+    display: flex;
+}
+
+.foodwagon img{
+    margin: 36px 10px 0 0;
+}
+
+.foodwagon p{
+    color: #F17228;
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.delivery{
+    margin-right: auto;
+    display: flex;
+}
+
+.delivery p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.delivery img{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.searchAndLogin{
     margin-right: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchAndLogin p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.searchAndLogin button{
+    width: 118px;
+    height: 46px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#F17228;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(255, 179, 14, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchAndLogin button:hover {
+    background-color: #FFB30E; /* Green */
+    color: white;
+  }
+
+.starving{
+    background-color: #FFB30E;
+    height: 620px;
+    
+}
+
+.starving p{
+    margin-top: 0px;
 }
